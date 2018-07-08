@@ -102,7 +102,7 @@ public class LoginPrestener {
 
            @Override
            public void onFailure(Call<Cityresponse> call, Throwable t) {
-               
+
            }
        });
 
