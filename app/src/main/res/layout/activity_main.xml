@@ -7,14 +7,14 @@
     tools:context="tain.traning.MainActivity">
 
 <EditText
-    android:layout_width="200dp"
+    android:layout_width="match_parent"
     android:layout_height="50dp"
     android:layout_margin="20dp"
     android:hint="Email"
     android:id="@+id/username"
     />
     <EditText
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="20dp"
         android:hint="Password"

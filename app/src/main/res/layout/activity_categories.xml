@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tain.traning.Categories">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" بتدور على إيه !"
+        android:textStyle="normal"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bssearch"
+        android:paddingRight="15dp"
+        android:id="@+id/findyourproduct"
+        android:paddingLeft="20dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:alpha=".5"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Recycles"
+        android:layout_below="@+id/findyourproduct"
+        android:layout_marginTop="10dp"
+        ></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

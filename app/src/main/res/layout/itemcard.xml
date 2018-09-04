@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Imagecard"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Imagecard"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:id="@+id/textenglissh" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textenglissh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:id="@+id/textpric" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/carddd"
+        android:src="@drawable/cart"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/pluss"
+        android:src="@drawable/plus"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/textpric"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/minuss"
+        android:src="@drawable/minus"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textpric"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpric"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:text="1"
+        android:id="@+id/contune" />
+
+</RelativeLayout>

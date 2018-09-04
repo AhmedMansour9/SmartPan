@@ -21,7 +21,7 @@ public class City extends AppCompatActivity implements cityview {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city);
         login=new LoginPrestener(this,this);
-        login.getCites();
+        login.getCeties();
         Recyclview();
     }
     public void Recyclview(){

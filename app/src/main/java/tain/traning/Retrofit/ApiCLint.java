@@ -15,7 +15,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiCLint {
     //public static final String BASE_URL = "http://192.168.1.23:4445/AndroidAPI/";
-    public static final String BASE_URL = "http://192.168.1.210:7778/AndroidAPI/";
+//    public static final String BASE_URL = "http://192.168.1.210:7778/AndroidAPI/";
+    public static final String BASE_URL = "http://www.smartpan.com.sa:5202/AndroidAPI/";
     // public static final String BASE_URL = "http://www.smartpan.com.sa:1002/AndroidAPI/";
 
     private static Retrofit retrofit = null;
